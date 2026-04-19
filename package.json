@@ -1,0 +1,23 @@
+{
+  "name": "mern1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "build": "npm install --prefix Backened && npm install --prefix Fronted/vite-project && npm run build --prefix Fronted/vite-project",
+    "start": "npm run start --prefix Backened"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DasariSumithra/Mern-ThinkBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DasariSumithra/Mern-ThinkBoard/issues"
+  },
+  "homepage": "https://github.com/DasariSumithra/Mern-ThinkBoard#readme"
+}
